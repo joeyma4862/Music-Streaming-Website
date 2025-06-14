@@ -1,0 +1,395 @@
+.main-container {
+    background-color: #cba2c1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header-section {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+    position: relative;
+    min-height: 1667px;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+   .header-section {
+        max-width: 100%;
+    }
+}
+
+.header-image {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.nav-section {
+    position: relative;
+    justify-content: center;
+    background-color: rgba(203, 162, 193, 0);
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    color: #321352;
+    line-height: 150%;
+    padding: 53px 80px;
+}
+
+@media (max-width: 768px) {
+   .nav-section {
+        max-width: 100%;
+        flex-wrap: wrap;
+        padding: 0 20px;
+    }
+}
+
+.nav-title {
+    flex-grow: 1;
+    margin: auto 0;
+    font: 900 36px League Spartan, sans-serif;
+}
+
+.nav-links {
+    justify-content: end;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+   .nav-links {
+        flex-wrap: wrap;
+    }
+}
+
+.nav-link {
+    font-family: Hepta Slab, sans-serif;
+    align-self: stretch;
+    margin: auto 0;
+    color: #222;
+}
+
+.sign-up-button {
+    font-family: Hepta Slab, sans-serif;
+    justify-content: center;
+    border-radius: 8px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    background-color: #222;
+    align-self: stretch;
+    color: #d97197;
+    padding: 14px 24px;
+}
+
+@media (max-width: 768px) {
+   .sign-up-button {
+        padding: 0 20px;
+    }
+}
+
+.content-container {
+    position: relative;
+    align-self: center;
+    z-index: 10;
+    width: 100%;
+    max-width: 1280px;
+}
+
+@media (max-width: 768px) {
+   .content-container {
+        max-width: 100%;
+    }
+}
+
+.sections {
+    gap: 20px;
+    display: flex;
+}
+
+@media (max-width: 768px) {
+   .sections {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0px;
+    }
+}
+
+.general-content {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 62%;
+    margin-left: 0px;
+}
+
+@media (max-width: 768px) {
+   .general-content {
+        width: 100%;
+    }
+}
+
+.image-related-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 80px;
+}
+
+@media (max-width: 768px) {
+   .image-related-content {
+        max-width: 100%;
+    }
+}
+
+.image-display {
+    aspect-ratio: 0.99;
+    object-fit: auto;
+    object-position: center;
+    width: 624px;
+    max-width: 100%;
+}
+
+.related-title {
+    color: #321352;
+    margin-top: 75px;
+    font: 700 36px/150% League Spartan, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+@media (max-width: 768px) {
+   .related-title {
+        max-width: 100%;
+        margin-top: 40px;
+    }
+}
+
+.related-section {
+    margin-top: 48px;
+}
+
+@media (max-width: 768px) {
+   .related-section {
+        max-width: 100%;
+        margin-top: 40px;
+    }
+}
+
+.related-items {
+    gap: 20px;
+    display: flex;
+}
+
+@media (max-width: 768px) {
+   .related-items {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0px;
+    }
+}
+
+.related-item {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    margin-left: 0px;
+    font-size: 20px;
+    color: #321352;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+@media (max-width: 768px) {
+    .related-item {
+        width: 100%;
+    }
+}
+
+.related-item-image {
+    aspect-ratio: 1;
+    object-fit: auto;
+    object-position: center;
+    width: 100%;
+}
+
+.related-item-title {
+    font-family: Hepta Slab, sans-serif;
+    margin-top: 24px;
+}
+
+.related-item-artist {
+    font-family: Hepta Slab, sans-serif;
+    margin-top: 4px;
+}
+
+.related-item-price {
+    font-family: Hepta Slab, sans-serif;
+    margin-top: 4px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    width: 38%;
+    margin-left: 20px;
+}
+
+@media (max-width: 768px) {
+    .main-content {
+        width: 100%;
+    }
+}
+
+.main-article {
+    position: relative;
+    display: flex;
+    margin-top: 4px;
+    flex-grow: 1;
+    flex-direction: column;
+    font-size: 20px;
+    color: #321352;
+    font-weight: 500;
+    line-height: 150%;
+    padding: 0 20px 80px;
+}
+
+@media (max-width: 768px) {
+    .main-article {
+        max-width: 100%;
+    }
+}
+
+.main-title {
+    font: 600 40px/110% League Spartan, -apple-system, Roboto, Helvetica, sans-serif;
+    padding-top: 40px;
+}
+
+@media (max-width: 768px) {
+    .main-title {
+        max-width: 100%;
+    }
+}
+
+.main-artist-title {
+    margin-top: 20px;
+    font: 400 24px League Spartan, sans-serif;
+}
+
+@media (max-width: 768px) {
+    .main-artist-title {
+        max-width: 100%;
+    }
+}
+
+.main-price {
+    margin-top: 29px;
+    font: 400 24px Hepta Slab, sans-serif;
+}
+
+@media (max-width: 768px) {
+    .main-price {
+        max-width: 100%;
+    }
+}
+
+.main-desc {
+    margin-top: 28px;
+    font: 16px Hepta Slab, sans-serif;
+}
+
+@media (max-width: 768px) {
+    .main-desc {
+        max-width: 100%;
+    }
+}
+
+.main-button {
+    font-family: League Spartan, sans-serif;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    background-color: #321352;
+    margin-top: 22px;
+    color: #d97197;
+    padding: 14px 24px;
+}
+
+@media (max-width: 768px) {
+    .main-button {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+}
+
+.lyrics-header {
+    margin-top: 36px;
+    font: 16px/24px Hepta Slab, sans-serif;
+}
+
+@media (max-width: 768px) {
+    .lyrics-header {
+        max-width: 100%;
+    }
+}
+
+.lyrics-container {
+    width: 600px;
+    padding: 10px;
+    border-left: 1px solid #cba2c1;
+    background-color: #cba2c1;
+    overflow-y: auto;
+    max-height: 300px;
+}
+
+.lyrics {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+    .lyrics-container {
+        max-width: 100%;
+    }
+}
+
+.main-article-wrapper .alt-image {
+    aspect-ratio: 1;
+    object-fit: auto;
+    object-position: center;
+    width: 243px;
+    align-self: end;
+    margin-top: 148px;
+    max-width: 100%;
+}
+
+@media (max-width: 768px) {
+    .main-article-wrapper .alt-image {
+        margin-top: 40px;
+    }
+}
+
+.alt-title {
+    align-self: end;
+    font-family: Hepta Slab, sans-serif;
+    margin-top: 24px;
+}
+
+.alt-artist {
+    align-self: end;
+    font-family: Hepta Slab, sans-serif;
+    margin-top: 4px;
+}
+
+.alt-price {
+    align-self: end;
+    font-family: Hepta Slab, sans-serif;
+    margin-top: 4px;
+}

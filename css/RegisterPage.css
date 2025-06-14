@@ -1,0 +1,167 @@
+.wrapper {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #321352;
+    text-align: center;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.description {
+    color: #321352;
+    text-align: center;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.input-field {
+    background-color: #f2f2f2;
+    font-family: 'Hepta Slab', sans-serif;
+    font-size: 18px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 20px;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .input-field {
+        white-space: initial;
+    }
+}
+
+.select-field {
+    background-color: #f2f2f2;
+    font-family: 'Hepta Slab', sans-serif;
+    font-size: 18px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 20px;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .select-field {
+        white-space: initial;
+    }
+}
+
+.select-label {
+    font-family: League Spartan, sans-serif;
+    flex: 1;
+}
+
+.select-icon {
+    aspect-ratio: 1.1;
+    object-fit: auto;
+    object-position: center;
+    width: 11px;
+    fill: #828282;
+    margin: auto 0;
+}
+
+.submit-button {
+    font-family: 'Hepta Slab', sans-serif;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #222;
+    color: #d97197;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+}
+
+@media (max-width: 768px) {
+    .submit-button {
+        padding: 0 20px;
+    }
+}
+
+.or-container {
+    text-align: center;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.or-line {
+    background-color: #321352;
+    align-self: stretch;
+    height: 1px;
+    flex: 1;
+    margin: auto 0;
+}
+
+.external-auth-button {
+    text-align-last: center;
+    font-family: 'Hepta Slab', sans-serif;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    color: #000;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+}
+
+@media (max-width: 768px) {
+    .external-auth-button {
+        white-space: initial;
+    }
+}
+
+.external-auth-icon {
+    aspect-ratio: 1;
+    object-fit: auto;
+    object-position: center;
+    width: 20px;
+}
+
+.auth-text {
+    text-align: center;
+    font-family: League Spartan, sans-serif;
+    flex-grow: 1;
+    flex-basis: auto;
+}
+
+.terms {
+    text-align: center;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .terms {
+        margin-bottom: 40px;
+    }
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}

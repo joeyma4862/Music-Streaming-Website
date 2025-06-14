@@ -1,0 +1,106 @@
+.main-content {
+    background-size: 100%;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-bottom: 80px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.title {
+    color: #321352;
+    font: 700 34px/110% 'League Spartan', 'Helvetica', sans-serif;
+    letter-spacing: -0.68px;
+    margin-top: 80px;
+    margin-left: 30px;
+}
+
+.subtitle {
+    color: #321352;
+    font: 500 20px 'Hepta Slab', sans-serif;
+    margin-top: 8px;
+    margin-left: 30px;
+}
+
+.genre-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px;
+    gap: 80px;
+}
+
+.releases-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 25px;
+    gap: 40px;
+}
+
+.genre {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.genre img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1;
+    border-radius: 25%;
+}
+
+.genre-name {
+    color: #321352;
+    font: 600 32px 'Hepta Slab', sans-serif;
+    text-align: center;
+    letter-spacing: -1.28px;
+    padding: 0px;
+}
+
+.genre-description {
+    color: #321352;
+    font: 500 20px 'Hepta Slab', sans-serif;
+    text-align: center;
+}
+
+.releases-container img {
+    width: 144px;
+    height: auto;
+}
+
+.release {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.release-title {
+    color: #321352;
+    font: 500 16px 'Hepta Slab', sans-serif;
+    text-align: center;
+    margin-top: 12px;
+}
+
+.release-artist {
+    color: #321352;
+    font: 400 16px 'Hepta Slab', sans-serif;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .main-content {
+        width: 100%;
+        max-width: 100%;
+    }
+    .title {
+        margin-top: 40px;
+    }
+    .genre,
+    .release {
+        width: 100%;
+    }
+}
