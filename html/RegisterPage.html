@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Willify - Register</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@400;700&family=League+Spartan:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/RegisterPage.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav-container">
+            <div class="nav">
+                <a href="/html/HomePage.html" class="brand">Willify</a>
+                <div class="menu">
+                    <a href="/html/SongsPage.html" class="menu-item">Songs</a>
+                    <a href="/html/SongDetailPage.html" class="menu-item">Song Detail</a>
+                    <a href="/html/AboutUsPage.html" class="menu-item">About Us</a>
+                    <a href="/html/RegisterPage.html" class="sign-up">Sign Up</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="container">
+        <div class="wrapper">    
+            <h2>Create an account</h2>
+            <p class="description">Enter your personal information to sign up</p>
+            <form>
+                <label for="nameInput" class="visually-hidden">Name</label>
+                <input type="text" id="nameInput" placeholder="Name" class="input-field" aria-label="Name">
+    
+                <label for="emailInput" class="visually-hidden">Email</label>
+                <input type="email" id="emailInput" placeholder="email@domain.com" class="input-field" aria-label="Email">
+    
+                <label for="passwordInput" class="visually-hidden">Password</label>
+                <input type="password" id="passwordInput" placeholder="Password" class="input-field" aria-label="Password">
+    
+                <label for="ageInput" class="visually-hidden">Age</label>
+                <input type="text" id="ageInput" placeholder="Age" class="input-field" aria-label="Age">
+    
+                <div class="select-field">
+                    <span class="select-label">Gender</span>
+                    <label><input type="radio" name="gender" value="male"> Male</label>
+                    <label><input type="radio" name="gender" value="female"> Female</label>
+                </div>
+    
+                <button type="submit" class="submit-button">Sign up with email</button>
+            </form>
+    
+            <div class="or-container">
+                <div class="or-line"></div>
+                <span>or continue with</span>
+                <div class="or-line"></div>
+            </div>
+            <button class="external-auth-button">
+                <img src="/assets/GoogleIcon.svg" class="external-auth-icon" alt="Google logo">
+                <span class="auth-text">Google</span>
+            </button>
+    
+            <div class="terms">
+                <span class="terms-text">By clicking continue, you agree to our </span>
+                <a href="#" class="terms-link">Terms of Service</a>
+                <span class="terms-text"> and </span>
+                <a href="#" class="terms-link">Privacy Policy</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="divider"></div>
+        <div class="footer-content">
+    
+            <div class="footer-links">
+    
+                <div class="footer-column">
+                    <div class="footer-section">
+                        <div class="footer-brand">Willify</div>
+                        <p>&copy; 2006 Willify</p>
+                    </div>
+                </div>
+    
+                <div class="footer-column">
+                    <div class="footer-section">
+                        <h3 class="footer-section-title">About</h3>
+                        <a href="/html/AboutUsPage.html" class="footer-section-item">About Us</a>
+                        <a href="#" class="footer-section-item">Privacy Policy</a>
+                        <a href="#" class="footer-section-item">Terms and Conditions</a>
+                        <a href="#" class="footer-section-item">Contact Us</a>
+                    </div>
+                </div>
+    
+                <div class="footer-column">
+                    <div class="footer-section">
+                        <h3 class="footer-section-title">Help</h3>
+                        <a href="#" class="footer-section-item">Support</a>
+                        <a href="#" class="footer-section-item">FAQs</a>
+                    </div>
+                </div>
+    
+                <div class="footer-column">
+                    <div class="footer-section">
+                        <h3 class="footer-section-title">Contact Us</h3>
+                        <p class="footer-section-item">Email: info@willify.com</p>
+                        <p class="footer-section-item">Phone: +62 123 4567 890</p>
+                        <p class="footer-section-item">Address: Jl. Example No. 123, Jakarta, Indonesia</p>
+                    </div>
+                </div>
+    
+                <div class="footer-column">
+                    <div class="footer-section">
+                        <h3 class="footer-section-title">Follow Us</h3>
+                        <a href="#" class="footer-section-item">Facebook</a>
+                        <a href="#" class="footer-section-item">Twitter</a>
+                        <a href="#" class="footer-section-item">Instagram</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="/javascript/script.js"></script>
+</body>
+</html>
